@@ -1,0 +1,67 @@
+PODS:
+  - Alamofire (4.7.3)
+  - DGElasticPullToRefresh (1.1)
+  - GTMRefresh (1.3.4)
+  - Kingfisher (4.8.0)
+  - LLCycleScrollView (1.4.8):
+    - Kingfisher
+  - MBProgressHUD (1.1.0)
+  - MJExtension (3.0.15.1)
+  - MJRefresh (3.1.15.3)
+  - NVActivityIndicatorView (4.3.0):
+    - NVActivityIndicatorView/Presenter (= 4.3.0)
+  - NVActivityIndicatorView/Presenter (4.3.0)
+  - ObjectMapper (3.3.0)
+  - ReachabilitySwift (4.1.0)
+  - SnapKit (4.0.0)
+  - SwiftyJSON (4.1.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - DGElasticPullToRefresh
+  - GTMRefresh
+  - Kingfisher
+  - LLCycleScrollView
+  - MBProgressHUD
+  - MJExtension
+  - MJRefresh
+  - NVActivityIndicatorView
+  - ObjectMapper
+  - ReachabilitySwift
+  - SnapKit
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - DGElasticPullToRefresh
+    - GTMRefresh
+    - Kingfisher
+    - LLCycleScrollView
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - NVActivityIndicatorView
+    - ObjectMapper
+    - ReachabilitySwift
+    - SnapKit
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  DGElasticPullToRefresh: 28f11a6026302a90f8ffebbc6e24748e584dddd3
+  GTMRefresh: 45b92077ca8404a3be8d1342d0ea7cfe97b2d235
+  Kingfisher: 976d828df2b24834c6a3f2fc4d82cdbd26552be1
+  LLCycleScrollView: ba2f11e78a537cd3b36df58308822babbd41b202
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  NVActivityIndicatorView: 963f62bf9f993fcf23218e55958e5b1761b9504c
+  ObjectMapper: b612bf8c8e99c4dc0bb6013a51f7c27966ed5da9
+  ReachabilitySwift: 6849231cd4e06559f3b9ef4a97a0a0f96d41e09f
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+
+PODFILE CHECKSUM: 2a9356b191044bd3b5c17265a551b86268429959
+
+COCOAPODS: 1.5.3

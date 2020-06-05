@@ -1,0 +1,957 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0077DBBF8F64A115B39A2323 /* libPods-HQMobileOffice-Swift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39BF4E137E2C94C649EF84B5 /* libPods-HQMobileOffice-Swift.a */; };
+		846CB29A2489F3FD00C44A00 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846CB2992489F3FD00C44A00 /* Request.swift */; };
+		F30BFAF921097D4D00DC1BF7 /* HQUpLoadPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30BFAF821097D4D00DC1BF7 /* HQUpLoadPhotoViewController.swift */; };
+		F30BFAFB2109968100DC1BF7 /* HQVisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30BFAFA2109968100DC1BF7 /* HQVisitorView.swift */; };
+		F30BFAFD2109A54B00DC1BF7 /* HQTitleBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30BFAFC2109A54B00DC1BF7 /* HQTitleBtn.swift */; };
+		F30F627920EB090E00D87FF3 /* HQLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30F627820EB090E00D87FF3 /* HQLoginViewController.swift */; };
+		F30F627B20EB092600D87FF3 /* HQLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30F627A20EB092600D87FF3 /* HQLoginView.swift */; };
+		F30F627F20EB126D00D87FF3 /* viewCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30F627E20EB126D00D87FF3 /* viewCategory.swift */; };
+		F30F628120EB17F800D87FF3 /* HQTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30F628020EB17F800D87FF3 /* HQTextField.swift */; };
+		F30F628320EB252500D87FF3 /* GlobalConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30F628220EB252500D87FF3 /* GlobalConst.swift */; };
+		F30F629020EB4A6100D87FF3 /* HQAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30F628F20EB4A6100D87FF3 /* HQAccount.swift */; };
+		F30F629220EB4BEA00D87FF3 /* HQUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30F629120EB4BEA00D87FF3 /* HQUserDefaults.swift */; };
+		F30F629420EB4FA200D87FF3 /* HQNewfeatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30F629320EB4FA200D87FF3 /* HQNewfeatureViewController.swift */; };
+		F30F629620EB592800D87FF3 /* HQMainTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30F629520EB592800D87FF3 /* HQMainTool.swift */; };
+		F30F629820EB6D1800D87FF3 /* HQWorkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30F629720EB6D1800D87FF3 /* HQWorkCell.swift */; };
+		F30F629A20EB716600D87FF3 /* HQNetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30F629920EB716600D87FF3 /* HQNetworkTools.swift */; };
+		F315BA402108186900EB9380 /* HQAnimatedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F315BA3F2108186900EB9380 /* HQAnimatedLabel.swift */; };
+		F315BA42210818C000EB9380 /* HQAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F315BA41210818C000EB9380 /* HQAnimator.swift */; };
+		F315BA44210818ED00EB9380 /* HQHollowLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F315BA43210818ED00EB9380 /* HQHollowLabel.swift */; };
+		F322706020EDB58C00C44F7C /* HQNotiBannerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F322705F20EDB58C00C44F7C /* HQNotiBannerModel.swift */; };
+		F322706220EE054A00C44F7C /* HomeDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F322706120EE054A00C44F7C /* HomeDataManager.swift */; };
+		F326E5E920EF71B000BEEB89 /* HQTextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F326E5E820EF71B000BEEB89 /* HQTextFieldExtension.swift */; };
+		F34E35042107284500EB8939 /* HQMeunEditHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34E35032107284500EB8939 /* HQMeunEditHeaderView.swift */; };
+		F34E564220EB75AB0063BE6E /* HQWorkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34E564120EB75AB0063BE6E /* HQWorkModel.swift */; };
+		F353AD4720F4561E00DFFDE0 /* HQCacheViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F353AD4620F4561E00DFFDE0 /* HQCacheViewController.swift */; };
+		F35B404020EC6253005D81F4 /* HQStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B403F20EC6253005D81F4 /* HQStringExtension.swift */; };
+		F35B404720ECA650005D81F4 /* HQNotiCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B404620ECA650005D81F4 /* HQNotiCell.swift */; };
+		F35B404920ECA691005D81F4 /* HQNotiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B404820ECA691005D81F4 /* HQNotiModel.swift */; };
+		F35B404B20ECA768005D81F4 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B404A20ECA768005D81F4 /* TestViewController.swift */; };
+		F35B404D20ECA797005D81F4 /* TestKVOView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B404C20ECA797005D81F4 /* TestKVOView.swift */; };
+		F35B404F20ECA7B9005D81F4 /* HQPersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B404E20ECA7B9005D81F4 /* HQPersonModel.swift */; };
+		F35B405120ECA84E005D81F4 /* HQNotiHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B405020ECA84D005D81F4 /* HQNotiHeaderView.swift */; };
+		F35B405320ECB246005D81F4 /* HQBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B405220ECB246005D81F4 /* HQBaseViewController.swift */; };
+		F35B405520ECBA3B005D81F4 /* HQViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B405420ECBA3B005D81F4 /* HQViewControllerExtension.swift */; };
+		F35B405720ECBCE6005D81F4 /* SwiftShare.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B405620ECBCE6005D81F4 /* SwiftShare.swift */; };
+		F35B405C20ECBFBA005D81F4 /* HQWorkHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B405B20ECBFBA005D81F4 /* HQWorkHeaderView.swift */; };
+		F35B405E20ECC673005D81F4 /* HQWorkTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B405D20ECC673005D81F4 /* HQWorkTopView.swift */; };
+		F35B406020ECCBAC005D81F4 /* HQAdBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B405F20ECCBAC005D81F4 /* HQAdBannerView.swift */; };
+		F35B406220ECCE79005D81F4 /* HQAdCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B406120ECCE79005D81F4 /* HQAdCell.swift */; };
+		F365CC7B20F2F49B00CF622F /* HQEditMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F365CC7A20F2F49B00CF622F /* HQEditMenuViewController.swift */; };
+		F365CC7D20F2FA7600CF622F /* HQEditMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F365CC7C20F2FA7600CF622F /* HQEditMenuModel.swift */; };
+		F365CC7F20F34E4100CF622F /* HQObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F365CC7E20F34E4100CF622F /* HQObjectExtension.swift */; };
+		F365CC8120F3510E00CF622F /* HQEditCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F365CC8020F3510E00CF622F /* HQEditCell.swift */; };
+		F365CC8620F356E000CF622F /* HQEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F365CC8520F356E000CF622F /* HQEditView.swift */; };
+		F36613C520E9B62C00AFDA9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36613C420E9B62C00AFDA9B /* AppDelegate.swift */; };
+		F36613CC20E9B62D00AFDA9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F36613CB20E9B62D00AFDA9B /* Assets.xcassets */; };
+		F36613DA20E9B62E00AFDA9B /* HQMobileOffice_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36613D920E9B62E00AFDA9B /* HQMobileOffice_SwiftTests.swift */; };
+		F36613E520E9B62E00AFDA9B /* HQMobileOffice_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36613E420E9B62E00AFDA9B /* HQMobileOffice_SwiftUITests.swift */; };
+		F36613F420E9B68500AFDA9B /* HQTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36613F320E9B68500AFDA9B /* HQTabBarViewController.swift */; };
+		F36613F720E9B76300AFDA9B /* HQWorkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36613F620E9B76300AFDA9B /* HQWorkViewController.swift */; };
+		F36613FA20E9B78200AFDA9B /* HQNotiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36613F920E9B78200AFDA9B /* HQNotiViewController.swift */; };
+		F36613FD20E9B7A700AFDA9B /* HQMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36613FC20E9B7A700AFDA9B /* HQMineViewController.swift */; };
+		F36613FF20E9BB9000AFDA9B /* HQNaviViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36613FE20E9BB9000AFDA9B /* HQNaviViewController.swift */; };
+		F397AA5821058798009C715A /* HQUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F397AA5721058798009C715A /* HQUser.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F36613D620E9B62E00AFDA9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F36613B920E9B62B00AFDA9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F36613C020E9B62C00AFDA9B;
+			remoteInfo = "HQMobileOffice-Swift";
+		};
+		F36613E120E9B62E00AFDA9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F36613B920E9B62B00AFDA9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F36613C020E9B62C00AFDA9B;
+			remoteInfo = "HQMobileOffice-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32EE3927204A1D6B1D2F6AF0 /* Pods-HQMobileOffice-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HQMobileOffice-Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-HQMobileOffice-Swift/Pods-HQMobileOffice-Swift.release.xcconfig"; sourceTree = "<group>"; };
+		35EECF4758D7926B82ACF1BA /* Pods-HQMobileOffice-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HQMobileOffice-Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HQMobileOffice-Swift/Pods-HQMobileOffice-Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		39BF4E137E2C94C649EF84B5 /* libPods-HQMobileOffice-Swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HQMobileOffice-Swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		846CB2992489F3FD00C44A00 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		84AAF1382489D3480016DD29 /* HWMobileOffice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWMobileOffice.h; sourceTree = "<group>"; };
+		F30BFAF821097D4D00DC1BF7 /* HQUpLoadPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQUpLoadPhotoViewController.swift; sourceTree = "<group>"; };
+		F30BFAFA2109968100DC1BF7 /* HQVisitorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQVisitorView.swift; sourceTree = "<group>"; };
+		F30BFAFC2109A54B00DC1BF7 /* HQTitleBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQTitleBtn.swift; sourceTree = "<group>"; };
+		F30F627820EB090E00D87FF3 /* HQLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQLoginViewController.swift; sourceTree = "<group>"; };
+		F30F627A20EB092600D87FF3 /* HQLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQLoginView.swift; sourceTree = "<group>"; };
+		F30F627E20EB126D00D87FF3 /* viewCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewCategory.swift; sourceTree = "<group>"; };
+		F30F628020EB17F800D87FF3 /* HQTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQTextField.swift; sourceTree = "<group>"; };
+		F30F628220EB252500D87FF3 /* GlobalConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConst.swift; sourceTree = "<group>"; };
+		F30F628F20EB4A6100D87FF3 /* HQAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQAccount.swift; sourceTree = "<group>"; };
+		F30F629120EB4BEA00D87FF3 /* HQUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQUserDefaults.swift; sourceTree = "<group>"; };
+		F30F629320EB4FA200D87FF3 /* HQNewfeatureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQNewfeatureViewController.swift; sourceTree = "<group>"; };
+		F30F629520EB592800D87FF3 /* HQMainTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQMainTool.swift; sourceTree = "<group>"; };
+		F30F629720EB6D1800D87FF3 /* HQWorkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQWorkCell.swift; sourceTree = "<group>"; };
+		F30F629920EB716600D87FF3 /* HQNetworkTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQNetworkTools.swift; sourceTree = "<group>"; };
+		F315BA3F2108186900EB9380 /* HQAnimatedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQAnimatedLabel.swift; sourceTree = "<group>"; };
+		F315BA41210818C000EB9380 /* HQAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQAnimator.swift; sourceTree = "<group>"; };
+		F315BA43210818ED00EB9380 /* HQHollowLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQHollowLabel.swift; sourceTree = "<group>"; };
+		F322705F20EDB58C00C44F7C /* HQNotiBannerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQNotiBannerModel.swift; sourceTree = "<group>"; };
+		F322706120EE054A00C44F7C /* HomeDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDataManager.swift; sourceTree = "<group>"; };
+		F326E5E820EF71B000BEEB89 /* HQTextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQTextFieldExtension.swift; sourceTree = "<group>"; };
+		F34E35032107284500EB8939 /* HQMeunEditHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQMeunEditHeaderView.swift; sourceTree = "<group>"; };
+		F34E564120EB75AB0063BE6E /* HQWorkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQWorkModel.swift; sourceTree = "<group>"; };
+		F353AD4620F4561E00DFFDE0 /* HQCacheViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQCacheViewController.swift; sourceTree = "<group>"; };
+		F35B403F20EC6253005D81F4 /* HQStringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQStringExtension.swift; sourceTree = "<group>"; };
+		F35B404620ECA650005D81F4 /* HQNotiCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQNotiCell.swift; sourceTree = "<group>"; };
+		F35B404820ECA691005D81F4 /* HQNotiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQNotiModel.swift; sourceTree = "<group>"; };
+		F35B404A20ECA768005D81F4 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		F35B404C20ECA797005D81F4 /* TestKVOView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestKVOView.swift; sourceTree = "<group>"; };
+		F35B404E20ECA7B9005D81F4 /* HQPersonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQPersonModel.swift; sourceTree = "<group>"; };
+		F35B405020ECA84D005D81F4 /* HQNotiHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQNotiHeaderView.swift; sourceTree = "<group>"; };
+		F35B405220ECB246005D81F4 /* HQBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQBaseViewController.swift; sourceTree = "<group>"; };
+		F35B405420ECBA3B005D81F4 /* HQViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQViewControllerExtension.swift; sourceTree = "<group>"; };
+		F35B405620ECBCE6005D81F4 /* SwiftShare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftShare.swift; sourceTree = "<group>"; };
+		F35B405B20ECBFBA005D81F4 /* HQWorkHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQWorkHeaderView.swift; sourceTree = "<group>"; };
+		F35B405D20ECC673005D81F4 /* HQWorkTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQWorkTopView.swift; sourceTree = "<group>"; };
+		F35B405F20ECCBAC005D81F4 /* HQAdBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQAdBannerView.swift; sourceTree = "<group>"; };
+		F35B406120ECCE79005D81F4 /* HQAdCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQAdCell.swift; sourceTree = "<group>"; };
+		F365CC7A20F2F49B00CF622F /* HQEditMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQEditMenuViewController.swift; sourceTree = "<group>"; };
+		F365CC7C20F2FA7600CF622F /* HQEditMenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQEditMenuModel.swift; sourceTree = "<group>"; };
+		F365CC7E20F34E4100CF622F /* HQObjectExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQObjectExtension.swift; sourceTree = "<group>"; };
+		F365CC8020F3510E00CF622F /* HQEditCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQEditCell.swift; sourceTree = "<group>"; };
+		F365CC8520F356E000CF622F /* HQEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQEditView.swift; sourceTree = "<group>"; };
+		F36613C120E9B62C00AFDA9B /* HQMobileOffice-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HQMobileOffice-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F36613C420E9B62C00AFDA9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F36613CB20E9B62D00AFDA9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F36613D020E9B62E00AFDA9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F36613D520E9B62E00AFDA9B /* HQMobileOffice-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HQMobileOffice-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F36613D920E9B62E00AFDA9B /* HQMobileOffice_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQMobileOffice_SwiftTests.swift; sourceTree = "<group>"; };
+		F36613DB20E9B62E00AFDA9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F36613E020E9B62E00AFDA9B /* HQMobileOffice-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HQMobileOffice-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F36613E420E9B62E00AFDA9B /* HQMobileOffice_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQMobileOffice_SwiftUITests.swift; sourceTree = "<group>"; };
+		F36613E620E9B62E00AFDA9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F36613F320E9B68500AFDA9B /* HQTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQTabBarViewController.swift; sourceTree = "<group>"; };
+		F36613F620E9B76300AFDA9B /* HQWorkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQWorkViewController.swift; sourceTree = "<group>"; };
+		F36613F920E9B78200AFDA9B /* HQNotiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQNotiViewController.swift; sourceTree = "<group>"; };
+		F36613FC20E9B7A700AFDA9B /* HQMineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQMineViewController.swift; sourceTree = "<group>"; };
+		F36613FE20E9BB9000AFDA9B /* HQNaviViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQNaviViewController.swift; sourceTree = "<group>"; };
+		F397AA5721058798009C715A /* HQUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQUser.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F36613BE20E9B62C00AFDA9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0077DBBF8F64A115B39A2323 /* libPods-HQMobileOffice-Swift.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36613D220E9B62E00AFDA9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36613DD20E9B62E00AFDA9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A5FB844C47EA16F0F9A717B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39BF4E137E2C94C649EF84B5 /* libPods-HQMobileOffice-Swift.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44FEBE22C78A66D0B827800A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				35EECF4758D7926B82ACF1BA /* Pods-HQMobileOffice-Swift.debug.xcconfig */,
+				32EE3927204A1D6B1D2F6AF0 /* Pods-HQMobileOffice-Swift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F30F627720EB08F000D87FF3 /* HQLogin */ = {
+			isa = PBXGroup;
+			children = (
+				F30F629320EB4FA200D87FF3 /* HQNewfeatureViewController.swift */,
+				F30F627820EB090E00D87FF3 /* HQLoginViewController.swift */,
+				F30F627A20EB092600D87FF3 /* HQLoginView.swift */,
+				F30F628020EB17F800D87FF3 /* HQTextField.swift */,
+				F30F628F20EB4A6100D87FF3 /* HQAccount.swift */,
+			);
+			path = HQLogin;
+			sourceTree = "<group>";
+		};
+		F30F627C20EB11D000D87FF3 /* HQOther */ = {
+			isa = PBXGroup;
+			children = (
+				F35B405620ECBCE6005D81F4 /* SwiftShare.swift */,
+				F322706120EE054A00C44F7C /* HomeDataManager.swift */,
+				F30F627E20EB126D00D87FF3 /* viewCategory.swift */,
+				F30F628220EB252500D87FF3 /* GlobalConst.swift */,
+				F30F629920EB716600D87FF3 /* HQNetworkTools.swift */,
+				F30F629120EB4BEA00D87FF3 /* HQUserDefaults.swift */,
+				F30F629520EB592800D87FF3 /* HQMainTool.swift */,
+				F35B403F20EC6253005D81F4 /* HQStringExtension.swift */,
+				F35B405420ECBA3B005D81F4 /* HQViewControllerExtension.swift */,
+				F326E5E820EF71B000BEEB89 /* HQTextFieldExtension.swift */,
+				F365CC7E20F34E4100CF622F /* HQObjectExtension.swift */,
+				F315BA3F2108186900EB9380 /* HQAnimatedLabel.swift */,
+				F315BA41210818C000EB9380 /* HQAnimator.swift */,
+				F315BA43210818ED00EB9380 /* HQHollowLabel.swift */,
+				F30BFAFA2109968100DC1BF7 /* HQVisitorView.swift */,
+				F30BFAFC2109A54B00DC1BF7 /* HQTitleBtn.swift */,
+				84AAF1382489D3480016DD29 /* HWMobileOffice.h */,
+				846CB2992489F3FD00C44A00 /* Request.swift */,
+			);
+			path = HQOther;
+			sourceTree = "<group>";
+		};
+		F35B405820ECBF5E005D81F4 /* ViewContoller */ = {
+			isa = PBXGroup;
+			children = (
+				F35B404A20ECA768005D81F4 /* TestViewController.swift */,
+				F36613F920E9B78200AFDA9B /* HQNotiViewController.swift */,
+			);
+			path = ViewContoller;
+			sourceTree = "<group>";
+		};
+		F35B405920ECBF73005D81F4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F35B404620ECA650005D81F4 /* HQNotiCell.swift */,
+				F35B404C20ECA797005D81F4 /* TestKVOView.swift */,
+				F35B405020ECA84D005D81F4 /* HQNotiHeaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F35B405A20ECBF83005D81F4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F35B404820ECA691005D81F4 /* HQNotiModel.swift */,
+				F35B404E20ECA7B9005D81F4 /* HQPersonModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F365CC8220F3564300CF622F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F36613F620E9B76300AFDA9B /* HQWorkViewController.swift */,
+				F353AD4620F4561E00DFFDE0 /* HQCacheViewController.swift */,
+				F365CC7A20F2F49B00CF622F /* HQEditMenuViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F365CC8320F3565B00CF622F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F30F629720EB6D1800D87FF3 /* HQWorkCell.swift */,
+				F35B405D20ECC673005D81F4 /* HQWorkTopView.swift */,
+				F35B406120ECCE79005D81F4 /* HQAdCell.swift */,
+				F365CC8020F3510E00CF622F /* HQEditCell.swift */,
+				F35B405B20ECBFBA005D81F4 /* HQWorkHeaderView.swift */,
+				F35B405F20ECCBAC005D81F4 /* HQAdBannerView.swift */,
+				F365CC8520F356E000CF622F /* HQEditView.swift */,
+				F34E35032107284500EB8939 /* HQMeunEditHeaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F365CC8420F3568200CF622F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F365CC7C20F2FA7600CF622F /* HQEditMenuModel.swift */,
+				F34E564120EB75AB0063BE6E /* HQWorkModel.swift */,
+				F322705F20EDB58C00C44F7C /* HQNotiBannerModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F36613B820E9B62B00AFDA9B = {
+			isa = PBXGroup;
+			children = (
+				F36613C320E9B62C00AFDA9B /* HQMobileOffice-Swift */,
+				F36613D820E9B62E00AFDA9B /* HQMobileOffice-SwiftTests */,
+				F36613E320E9B62E00AFDA9B /* HQMobileOffice-SwiftUITests */,
+				F36613C220E9B62C00AFDA9B /* Products */,
+				44FEBE22C78A66D0B827800A /* Pods */,
+				3A5FB844C47EA16F0F9A717B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F36613C220E9B62C00AFDA9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F36613C120E9B62C00AFDA9B /* HQMobileOffice-Swift.app */,
+				F36613D520E9B62E00AFDA9B /* HQMobileOffice-SwiftTests.xctest */,
+				F36613E020E9B62E00AFDA9B /* HQMobileOffice-SwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F36613C320E9B62C00AFDA9B /* HQMobileOffice-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				F30F627C20EB11D000D87FF3 /* HQOther */,
+				F30F627720EB08F000D87FF3 /* HQLogin */,
+				F36613FB20E9B78800AFDA9B /* HQMine */,
+				F36613F820E9B76C00AFDA9B /* HQNoti */,
+				F36613F520E9B72300AFDA9B /* HQWork */,
+				F36613F220E9B65200AFDA9B /* HQMain */,
+				F36613CB20E9B62D00AFDA9B /* Assets.xcassets */,
+				F36613D020E9B62E00AFDA9B /* Info.plist */,
+			);
+			path = "HQMobileOffice-Swift";
+			sourceTree = "<group>";
+		};
+		F36613D820E9B62E00AFDA9B /* HQMobileOffice-SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				F36613D920E9B62E00AFDA9B /* HQMobileOffice_SwiftTests.swift */,
+				F36613DB20E9B62E00AFDA9B /* Info.plist */,
+			);
+			path = "HQMobileOffice-SwiftTests";
+			sourceTree = "<group>";
+		};
+		F36613E320E9B62E00AFDA9B /* HQMobileOffice-SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F36613E420E9B62E00AFDA9B /* HQMobileOffice_SwiftUITests.swift */,
+				F36613E620E9B62E00AFDA9B /* Info.plist */,
+			);
+			path = "HQMobileOffice-SwiftUITests";
+			sourceTree = "<group>";
+		};
+		F36613F220E9B65200AFDA9B /* HQMain */ = {
+			isa = PBXGroup;
+			children = (
+				F36613C420E9B62C00AFDA9B /* AppDelegate.swift */,
+				F36613F320E9B68500AFDA9B /* HQTabBarViewController.swift */,
+				F36613FE20E9BB9000AFDA9B /* HQNaviViewController.swift */,
+				F35B405220ECB246005D81F4 /* HQBaseViewController.swift */,
+			);
+			path = HQMain;
+			sourceTree = "<group>";
+		};
+		F36613F520E9B72300AFDA9B /* HQWork */ = {
+			isa = PBXGroup;
+			children = (
+				F365CC8420F3568200CF622F /* Model */,
+				F365CC8320F3565B00CF622F /* View */,
+				F365CC8220F3564300CF622F /* ViewController */,
+			);
+			path = HQWork;
+			sourceTree = "<group>";
+		};
+		F36613F820E9B76C00AFDA9B /* HQNoti */ = {
+			isa = PBXGroup;
+			children = (
+				F35B405A20ECBF83005D81F4 /* Model */,
+				F35B405920ECBF73005D81F4 /* View */,
+				F35B405820ECBF5E005D81F4 /* ViewContoller */,
+			);
+			path = HQNoti;
+			sourceTree = "<group>";
+		};
+		F36613FB20E9B78800AFDA9B /* HQMine */ = {
+			isa = PBXGroup;
+			children = (
+				F36613FC20E9B7A700AFDA9B /* HQMineViewController.swift */,
+				F30BFAF821097D4D00DC1BF7 /* HQUpLoadPhotoViewController.swift */,
+				F397AA5721058798009C715A /* HQUser.swift */,
+			);
+			path = HQMine;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F36613C020E9B62C00AFDA9B /* HQMobileOffice-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F36613E920E9B62E00AFDA9B /* Build configuration list for PBXNativeTarget "HQMobileOffice-Swift" */;
+			buildPhases = (
+				458155ED63225FA73BAD711A /* [CP] Check Pods Manifest.lock */,
+				F36613BD20E9B62C00AFDA9B /* Sources */,
+				F36613BE20E9B62C00AFDA9B /* Frameworks */,
+				F36613BF20E9B62C00AFDA9B /* Resources */,
+				B14FEF5B309AF312F85C14EA /* [CP] Copy Pods Resources */,
+				F35B404520ECA463005D81F4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HQMobileOffice-Swift";
+			productName = "HQMobileOffice-Swift";
+			productReference = F36613C120E9B62C00AFDA9B /* HQMobileOffice-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F36613D420E9B62E00AFDA9B /* HQMobileOffice-SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F36613EC20E9B62E00AFDA9B /* Build configuration list for PBXNativeTarget "HQMobileOffice-SwiftTests" */;
+			buildPhases = (
+				F36613D120E9B62E00AFDA9B /* Sources */,
+				F36613D220E9B62E00AFDA9B /* Frameworks */,
+				F36613D320E9B62E00AFDA9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F36613D720E9B62E00AFDA9B /* PBXTargetDependency */,
+			);
+			name = "HQMobileOffice-SwiftTests";
+			productName = "HQMobileOffice-SwiftTests";
+			productReference = F36613D520E9B62E00AFDA9B /* HQMobileOffice-SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F36613DF20E9B62E00AFDA9B /* HQMobileOffice-SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F36613EF20E9B62E00AFDA9B /* Build configuration list for PBXNativeTarget "HQMobileOffice-SwiftUITests" */;
+			buildPhases = (
+				F36613DC20E9B62E00AFDA9B /* Sources */,
+				F36613DD20E9B62E00AFDA9B /* Frameworks */,
+				F36613DE20E9B62E00AFDA9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F36613E220E9B62E00AFDA9B /* PBXTargetDependency */,
+			);
+			name = "HQMobileOffice-SwiftUITests";
+			productName = "HQMobileOffice-SwiftUITests";
+			productReference = F36613E020E9B62E00AFDA9B /* HQMobileOffice-SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F36613B920E9B62B00AFDA9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "太极华青协同办公";
+				TargetAttributes = {
+					F36613C020E9B62C00AFDA9B = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					F36613D420E9B62E00AFDA9B = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = F36613C020E9B62C00AFDA9B;
+					};
+					F36613DF20E9B62E00AFDA9B = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = F36613C020E9B62C00AFDA9B;
+					};
+				};
+			};
+			buildConfigurationList = F36613BC20E9B62B00AFDA9B /* Build configuration list for PBXProject "HQMobileOffice-Swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F36613B820E9B62B00AFDA9B;
+			productRefGroup = F36613C220E9B62C00AFDA9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F36613C020E9B62C00AFDA9B /* HQMobileOffice-Swift */,
+				F36613D420E9B62E00AFDA9B /* HQMobileOffice-SwiftTests */,
+				F36613DF20E9B62E00AFDA9B /* HQMobileOffice-SwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F36613BF20E9B62C00AFDA9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F36613CC20E9B62D00AFDA9B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36613D320E9B62E00AFDA9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36613DE20E9B62E00AFDA9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		458155ED63225FA73BAD711A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HQMobileOffice-Swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B14FEF5B309AF312F85C14EA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HQMobileOffice-Swift/Pods-HQMobileOffice-Swift-resources.sh",
+				"${PODS_ROOT}/GTMRefresh/GTMRefresh/Resource/arrow_down@3x.png",
+				"${PODS_ROOT}/GTMRefresh/GTMRefresh/Resource/Base.lproj/Localize.strings",
+				"${PODS_ROOT}/GTMRefresh/GTMRefresh/Resource/en.lproj/Localize.strings",
+				"${PODS_ROOT}/GTMRefresh/GTMRefresh/Resource/failure@3x.png",
+				"${PODS_ROOT}/GTMRefresh/GTMRefresh/Resource/success@3x.png",
+				"${PODS_ROOT}/GTMRefresh/GTMRefresh/Resource/zh-Hans.lproj/Localize.strings",
+				"${PODS_ROOT}/GTMRefresh/GTMRefresh/Resource/Base.lproj",
+				"${PODS_ROOT}/GTMRefresh/GTMRefresh/Resource/en.lproj",
+				"${PODS_ROOT}/GTMRefresh/GTMRefresh/Resource/zh-Hans.lproj",
+				"${PODS_ROOT}/LLCycleScrollView/Lib/LLCycleScrollView.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/arrow_down@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Localize.strings",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/failure@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/success@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Base.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/en.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zh-Hans.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LLCycleScrollView.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HQMobileOffice-Swift/Pods-HQMobileOffice-Swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F35B404520ECA463005D81F4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "TAGS=\"TODO:|FIXME:\"\necho \"searching ${SRCROOT} for ${TAGS}\"\nfind \"${SRCROOT}\" \\( -name \"*.swift\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($TAGS).*\\$\" | perl -p -e \"s/($TAGS)/ warning: \\$1/\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F36613BD20E9B62C00AFDA9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35B404920ECA691005D81F4 /* HQNotiModel.swift in Sources */,
+				F36613FD20E9B7A700AFDA9B /* HQMineViewController.swift in Sources */,
+				F353AD4720F4561E00DFFDE0 /* HQCacheViewController.swift in Sources */,
+				F35B404B20ECA768005D81F4 /* TestViewController.swift in Sources */,
+				F315BA402108186900EB9380 /* HQAnimatedLabel.swift in Sources */,
+				F365CC7D20F2FA7600CF622F /* HQEditMenuModel.swift in Sources */,
+				F30F627B20EB092600D87FF3 /* HQLoginView.swift in Sources */,
+				F365CC7B20F2F49B00CF622F /* HQEditMenuViewController.swift in Sources */,
+				F30F629420EB4FA200D87FF3 /* HQNewfeatureViewController.swift in Sources */,
+				F30F628120EB17F800D87FF3 /* HQTextField.swift in Sources */,
+				F322706020EDB58C00C44F7C /* HQNotiBannerModel.swift in Sources */,
+				F326E5E920EF71B000BEEB89 /* HQTextFieldExtension.swift in Sources */,
+				F36613C520E9B62C00AFDA9B /* AppDelegate.swift in Sources */,
+				F322706220EE054A00C44F7C /* HomeDataManager.swift in Sources */,
+				F365CC8120F3510E00CF622F /* HQEditCell.swift in Sources */,
+				F35B406220ECCE79005D81F4 /* HQAdCell.swift in Sources */,
+				F36613F420E9B68500AFDA9B /* HQTabBarViewController.swift in Sources */,
+				F36613FF20E9BB9000AFDA9B /* HQNaviViewController.swift in Sources */,
+				F36613F720E9B76300AFDA9B /* HQWorkViewController.swift in Sources */,
+				F35B406020ECCBAC005D81F4 /* HQAdBannerView.swift in Sources */,
+				F35B404F20ECA7B9005D81F4 /* HQPersonModel.swift in Sources */,
+				F30F629820EB6D1800D87FF3 /* HQWorkCell.swift in Sources */,
+				F36613FA20E9B78200AFDA9B /* HQNotiViewController.swift in Sources */,
+				F315BA42210818C000EB9380 /* HQAnimator.swift in Sources */,
+				F30F627920EB090E00D87FF3 /* HQLoginViewController.swift in Sources */,
+				F30F629620EB592800D87FF3 /* HQMainTool.swift in Sources */,
+				F35B405720ECBCE6005D81F4 /* SwiftShare.swift in Sources */,
+				F35B404720ECA650005D81F4 /* HQNotiCell.swift in Sources */,
+				F35B405520ECBA3B005D81F4 /* HQViewControllerExtension.swift in Sources */,
+				F35B405E20ECC673005D81F4 /* HQWorkTopView.swift in Sources */,
+				F35B404D20ECA797005D81F4 /* TestKVOView.swift in Sources */,
+				F30F629020EB4A6100D87FF3 /* HQAccount.swift in Sources */,
+				F365CC8620F356E000CF622F /* HQEditView.swift in Sources */,
+				F35B405320ECB246005D81F4 /* HQBaseViewController.swift in Sources */,
+				F30BFAFB2109968100DC1BF7 /* HQVisitorView.swift in Sources */,
+				F30BFAF921097D4D00DC1BF7 /* HQUpLoadPhotoViewController.swift in Sources */,
+				F30BFAFD2109A54B00DC1BF7 /* HQTitleBtn.swift in Sources */,
+				846CB29A2489F3FD00C44A00 /* Request.swift in Sources */,
+				F34E564220EB75AB0063BE6E /* HQWorkModel.swift in Sources */,
+				F397AA5821058798009C715A /* HQUser.swift in Sources */,
+				F315BA44210818ED00EB9380 /* HQHollowLabel.swift in Sources */,
+				F30F627F20EB126D00D87FF3 /* viewCategory.swift in Sources */,
+				F35B405120ECA84E005D81F4 /* HQNotiHeaderView.swift in Sources */,
+				F35B404020EC6253005D81F4 /* HQStringExtension.swift in Sources */,
+				F365CC7F20F34E4100CF622F /* HQObjectExtension.swift in Sources */,
+				F30F628320EB252500D87FF3 /* GlobalConst.swift in Sources */,
+				F30F629A20EB716600D87FF3 /* HQNetworkTools.swift in Sources */,
+				F35B405C20ECBFBA005D81F4 /* HQWorkHeaderView.swift in Sources */,
+				F30F629220EB4BEA00D87FF3 /* HQUserDefaults.swift in Sources */,
+				F34E35042107284500EB8939 /* HQMeunEditHeaderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36613D120E9B62E00AFDA9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F36613DA20E9B62E00AFDA9B /* HQMobileOffice_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36613DC20E9B62E00AFDA9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F36613E520E9B62E00AFDA9B /* HQMobileOffice_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F36613D720E9B62E00AFDA9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F36613C020E9B62C00AFDA9B /* HQMobileOffice-Swift */;
+			targetProxy = F36613D620E9B62E00AFDA9B /* PBXContainerItemProxy */;
+		};
+		F36613E220E9B62E00AFDA9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F36613C020E9B62C00AFDA9B /* HQMobileOffice-Swift */;
+			targetProxy = F36613E120E9B62E00AFDA9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F36613E720E9B62E00AFDA9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F36613E820E9B62E00AFDA9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F36613EA20E9B62E00AFDA9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35EECF4758D7926B82ACF1BA /* Pods-HQMobileOffice-Swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62RH8CTX84;
+				GCC_PREFIX_HEADER = "/Users/admin/Desktop/HQMobileOffice-Swift-2/HQMobileOffice-Swift/HQOther/HWMobileOffice.h";
+				INFOPLIST_FILE = "HQMobileOffice-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "HQ.HQMobileOffice-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ENABLE_BATCH_MODE = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/HQMobileOffice-Swift/HQOther/HWMobileOffice.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F36613EB20E9B62E00AFDA9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32EE3927204A1D6B1D2F6AF0 /* Pods-HQMobileOffice-Swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62RH8CTX84;
+				GCC_PREFIX_HEADER = "/Users/admin/Desktop/HQMobileOffice-Swift-2/HQMobileOffice-Swift/HQOther/HWMobileOffice.h";
+				INFOPLIST_FILE = "HQMobileOffice-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "HQ.HQMobileOffice-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ENABLE_BATCH_MODE = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/HQMobileOffice-Swift/HQOther/HWMobileOffice.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F36613ED20E9B62E00AFDA9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62RH8CTX84;
+				INFOPLIST_FILE = "HQMobileOffice-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "HQ.HQMobileOffice-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HQMobileOffice-Swift.app/HQMobileOffice-Swift";
+			};
+			name = Debug;
+		};
+		F36613EE20E9B62E00AFDA9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62RH8CTX84;
+				INFOPLIST_FILE = "HQMobileOffice-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "HQ.HQMobileOffice-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HQMobileOffice-Swift.app/HQMobileOffice-Swift";
+			};
+			name = Release;
+		};
+		F36613F020E9B62E00AFDA9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62RH8CTX84;
+				INFOPLIST_FILE = "HQMobileOffice-SwiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "HQ.HQMobileOffice-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HQMobileOffice-Swift";
+			};
+			name = Debug;
+		};
+		F36613F120E9B62E00AFDA9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62RH8CTX84;
+				INFOPLIST_FILE = "HQMobileOffice-SwiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "HQ.HQMobileOffice-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HQMobileOffice-Swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F36613BC20E9B62B00AFDA9B /* Build configuration list for PBXProject "HQMobileOffice-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F36613E720E9B62E00AFDA9B /* Debug */,
+				F36613E820E9B62E00AFDA9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F36613E920E9B62E00AFDA9B /* Build configuration list for PBXNativeTarget "HQMobileOffice-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F36613EA20E9B62E00AFDA9B /* Debug */,
+				F36613EB20E9B62E00AFDA9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F36613EC20E9B62E00AFDA9B /* Build configuration list for PBXNativeTarget "HQMobileOffice-SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F36613ED20E9B62E00AFDA9B /* Debug */,
+				F36613EE20E9B62E00AFDA9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F36613EF20E9B62E00AFDA9B /* Build configuration list for PBXNativeTarget "HQMobileOffice-SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F36613F020E9B62E00AFDA9B /* Debug */,
+				F36613F120E9B62E00AFDA9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F36613B920E9B62B00AFDA9B /* Project object */;
+}

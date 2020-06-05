@@ -1,0 +1,16 @@
+platform:ios,'8.0'
+target 'HQMobileOffice-Swift' do
+pod 'SwiftyJSON'
+pod 'Alamofire'
+pod 'Kingfisher'
+pod 'NVActivityIndicatorView'
+pod 'DGElasticPullToRefresh'
+pod 'GTMRefresh'
+pod 'MJExtension'
+pod 'MJRefresh'
+pod 'MBProgressHUD'
+pod 'ReachabilitySwift'
+pod 'LLCycleScrollView'
+pod 'ObjectMapper'
+pod 'SnapKit'
+end

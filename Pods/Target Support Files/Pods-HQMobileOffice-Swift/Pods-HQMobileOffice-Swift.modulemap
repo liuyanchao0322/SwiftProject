@@ -1,0 +1,6 @@
+module Pods_HQMobileOffice_Swift {
+  umbrella header "Pods-HQMobileOffice-Swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

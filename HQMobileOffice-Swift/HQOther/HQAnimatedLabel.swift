@@ -1,0 +1,72 @@
+//
+//  HQAnimatedLabel.swift
+//  HQMobileOffice-Swift
+//
+//  Created by 太极华青协同办公 on 2018/7/25.
+//  Copyright © 2018年 太极华青协同办公. All rights reserved.
+//
+
+import UIKit
+
+public enum HQAnimationType {
+    case none
+    case typewriter
+    case shine
+    case fade
+    case wave
+}
+
+open class HQAnimatedLabel: UILabel {
+    
+    // MARK: - Public Propertis
+    open var animationType = HQAnimationType.none {
+        didSet {
+            _animator = HQAnimator(animationType: animationType, duration: _duration)
+            _animator?.label = self
+        }
+    }
+    open override var text: String? {
+        didSet {
+            _animator?.label = self
+        }
+    }
+    open var placeHolderColor: UIColor?
+    
+    // MARK: - Private Properties
+    private(set) var placeHolderView: UIView?
+    private(set) var _duration: TimeInterval = 4.0
+    private var _hollowLabel: HQHollowLabel?
+    private var _animator: HQAnimator?
+    
+    open func startAnimation(duration: TimeInterval, _ completion:(() -> Void)?) {
+        guard let animator = _animator else {
+            return
+        }
+        if animationType == .wave {
+            placeHolderView = UIView(frame: bounds)
+            placeHolderView?.backgroundColor = placeHolderColor ?? .lightGray
+            placeHolderView?.layer.masksToBounds = true
+            addSubview(placeHolderView!)
+            
+            _hollowLabel = HQHollowLabel(frame: bounds)
+            _hollowLabel?.text = text
+            _hollowLabel?.textAlignment = textAlignment
+            _hollowLabel?.font = font
+            _hollowLabel?.fillColor = backgroundColor ?? .white
+            addSubview(_hollowLabel!)
+        }
+        
+        _duration = duration
+        animator.duration = duration
+        animator.label = self
+        animator.startAnimation(completion)
+    }
+    
+    public override init(frame: CGRect) {
+        super.init(frame: frame)
+    }
+    
+    required public init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+    }
+}
